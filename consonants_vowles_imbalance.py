@@ -21,9 +21,8 @@ def rec(string, vowels):
         sum2 = rec(s1) + rec(s2)
         return sum1 + sum2
 
-def f():
-    print(rec('sample', vowels = 'aeiou'))
+def main():
+    print(rec('sample', vowels='aeiou'))
 
 
-
-f()
+main()
